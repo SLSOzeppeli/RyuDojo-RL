@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Models and checkpoints (large files)
+*.zip
+*.pkl
+
+# Training outputs (generated at runtime)
+logs/
+main/models/checkpoints/
+opponents/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archive
+used/
+_archive/
+
+# ROMs (not distributable)
+*.gen
+*.smd
+*.bin
+**/rom.md
+
+# Recordings
+recordings/
+
+# Skills cache
+skills/
